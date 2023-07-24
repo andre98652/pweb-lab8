@@ -12,11 +12,25 @@ def crear_autor(request):
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+@api_view(['POST'])
+def crear_libro(request):
+    if request.method == 'POST':
+        serializer = LibroSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 @api_view(['GET'])
 def obtener_lista_autores(request):
     if request.method == 'GET':
         autores = Autor.objects.all()
         serializer = AutorSerializer(autores, many=True)
+        return Response(serializer.data, status=status.HTTP_200_OK)
+@api_view(['GET'])
+def obtener_lista_libros(request):
+    if request.method == 'GET':
+        libros = Libro.objects.all()
+        serializer = LibroSerializer(libros, many=True)
         return Response(serializer.data, status=status.HTTP_200_OK)
 @api_view(['GET'])
 def obtener_detalle_autor(request, autor_id):
@@ -27,6 +41,16 @@ def obtener_detalle_autor(request, autor_id):
 
     if request.method == 'GET':
         serializer = AutorSerializer(autor)
+        return Response(serializer.data, status=status.HTTP_200_OK)
+@api_view(['GET'])
+def obtener_detalle_libro(request,libro_id):
+    try:
+        libro = Libro.objects.get(id=libro_id)
+    except Libro.DoesNotExist:
+        return Response({"error": "El libro no existe."}, status=status.HTTP_404_NOT_FOUND)
+
+    if request.method == 'GET':
+        serializer = LibroSerializer(libro)
         return Response(serializer.data, status=status.HTTP_200_OK)
 @api_view(['PUT'])
 def actualizar_autor(request, autor_id):
@@ -41,6 +65,19 @@ def actualizar_autor(request, autor_id):
             serializer.save()
             return Response(serializer.data, status=status.HTTP_200_OK)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+@api_view(['PUT'])
+def actualizar_libro(request, libro_id):
+    try:
+        libro = Libro.objects.get(id=libro_id)
+    except Libro.DoesNotExist:
+        return Response({"error": "El libro no existe."}, status=status.HTTP_404_NOT_FOUND)
+
+    if request.method == 'PUT':
+        serializer = LibroSerializer(libro, data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_200_OK)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 @api_view(['DELETE'])
 def eliminar_autor(request, autor_id):
     try:
@@ -50,6 +87,16 @@ def eliminar_autor(request, autor_id):
 
     if request.method == 'DELETE':
         autor.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
+@api_view(['DELETE'])
+def eliminar_libro(request, libro_id):
+    try:
+        libro = Libro.objects.get(id=libro_id)
+    except Libro.DoesNotExist:
+        return Response({"error": "El autor no existe."}, status=status.HTTP_404_NOT_FOUND)
+
+    if request.method == 'DELETE':
+        libro.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
 
 class AutorViewSet(viewsets.ModelViewSet):
