@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.6)  24 JUL 2023 07:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.6)  24 JUL 2023 18:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -778,12 +778,12 @@ Overfull \hbox (0.89597pt too wide) in paragraph at lines 151--159
 [][] 
  []
 
-<img/logo_episunsa.png, id=170, 195.73125pt x 58.2175pt>
+<img/logo_episunsa.png, id=54, 195.73125pt x 58.2175pt>
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
 Package pdftex.def Info: img/logo_episunsa.png  used on input line 182.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
-<img/logo_abet.png, id=171, 58.2175pt x 65.24374pt>
+<img/logo_abet.png, id=55, 58.2175pt x 65.24374pt>
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
 Package pdftex.def Info: img/logo_abet.png  used on input line 182.
@@ -882,7 +882,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.51407pt}.
 
 [5])
-<pruebas/ejercicio.png, id=403, 1032.85875pt x 576.35326pt>
+<pruebas/ejercicio.png, id=287, 1032.85875pt x 576.35326pt>
 File: pruebas/ejercicio.png Graphic file (type png)
 <use pruebas/ejercicio.png>
 Package pdftex.def Info: pruebas/ejercicio.png  used on input line 208.
@@ -1016,7 +1016,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.51407pt}.
 
 [12])
-<pruebas/tarea-autores.png, id=746, 1000.9395pt x 534.798pt>
+<pruebas/tarea-autores.png, id=630, 1000.9395pt x 534.798pt>
 File: pruebas/tarea-autores.png Graphic file (type png)
 <use pruebas/tarea-autores.png>
 Package pdftex.def Info: pruebas/tarea-autores.png  used on input line 246.
@@ -1039,7 +1039,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.51407pt}.
 
 [13 <./pruebas/tarea-autores.png>]
-<pruebas/tarea-libros.png, id=773, 1015.99574pt x 545.6385pt>
+<pruebas/tarea-libros.png, id=657, 1015.99574pt x 545.6385pt>
 File: pruebas/tarea-libros.png Graphic file (type png)
 <use pruebas/tarea-libros.png>
 Package pdftex.def Info: pruebas/tarea-libros.png  used on input line 254.
@@ -1064,13 +1064,24 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 [14
 
  <./pruebas/tarea-libros.png>]
+<pruebas/curlIngresarAutor.png, id=664, 530.58224pt x 60.82726pt>
+File: pruebas/curlIngresarAutor.png Graphic file (type png)
+<use pruebas/curlIngresarAutor.png>
+Package pdftex.def Info: pruebas/curlIngresarAutor.png  used on input line 265.
+
+(pdftex.def)             Requested size: 443.57848pt x 50.85414pt.
+<pruebas/ingresandoAutor.png, id=665, 825.68475pt x 594.42075pt>
+File: pruebas/ingresandoAutor.png Graphic file (type png)
+<use pruebas/ingresandoAutor.png>
+Package pdftex.def Info: pruebas/ingresandoAutor.png  used on input line 269.
+(pdftex.def)             Requested size: 443.57848pt x 319.34073pt.
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 275.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 271.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 275.
+Package pdftex.def Info: img/logo_abet.png  used on input line 271.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
 
 
@@ -1083,24 +1094,40 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 [15
 
-]
-Overfull \hbox (4.41283pt too wide) in paragraph at lines 285--295
-[][]
- []
+ <./pruebas/curlIngresarAutor.png> <./pruebas/ingresandoAutor.png>]
+<pruebas/curlObtenerAutores.png, id=674, 486.618pt x 59.0205pt>
+File: pruebas/curlObtenerAutores.png Graphic file (type png)
+<use pruebas/curlObtenerAutores.png>
+Package pdftex.def Info: pruebas/curlObtenerAutores.png  used on input line 278
+.
+(pdftex.def)             Requested size: 443.57848pt x 53.80237pt.
+<pruebas/curlObtenerAutorId.png, id=675, 413.74574pt x 46.37325pt>
+File: pruebas/curlObtenerAutorId.png Graphic file (type png)
+<use pruebas/curlObtenerAutorId.png>
+Package pdftex.def Info: pruebas/curlObtenerAutorId.png  used on input line 286
+.
+(pdftex.def)             Requested size: 443.57848pt x 49.71935pt.
+<pruebas/curlEliminarAutor.png, id=676, 505.89pt x 36.73724pt>
+File: pruebas/curlEliminarAutor.png Graphic file (type png)
+<use pruebas/curlEliminarAutor.png>
+Package pdftex.def Info: pruebas/curlEliminarAutor.png  used on input line 294.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 285--295
-
- []
-
+(pdftex.def)             Requested size: 443.57848pt x 32.21281pt.
+<pruebas/tarea-autores-eliminado.png, id=677, 488.42474pt x 570.33075pt>
+File: pruebas/tarea-autores-eliminado.png Graphic file (type png)
+<use pruebas/tarea-autores-eliminado.png>
+Package pdftex.def Info: pruebas/tarea-autores-eliminado.png  used on input lin
+e 298.
+(pdftex.def)             Requested size: 303.90831pt x 354.87198pt.
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 297.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 303.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 297.
+Package pdftex.def Info: img/logo_abet.png  used on input line 303.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
+
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
 (fancyhdr)                Make it at least 40.51407pt, for example:
@@ -1111,39 +1138,23 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 [16
 
-]
-Overfull \hbox (5.9124pt too wide) in paragraph at lines 329--329
-[]|\OT1/cmr/m/n/10 Checklist| 
- []
-
-
-Overfull \hbox (4.45987pt too wide) in paragraph at lines 329--329
-[]|\OT1/cmr/m/n/10 Estudiante| 
- []
-
-
-Overfull \hbox (4.7852pt too wide) in paragraph at lines 329--330
-[]|\OT1/cmr/m/n/10 Profesor| 
- []
-
-
-Overfull \hbox (40.32231pt too wide) in paragraph at lines 327--353
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 327--353
-
- []
-
+ <./pruebas/curlObtenerAutores.png> <./pruebas/curlObtenerAutorId.png> <./prueb
+as/curlEliminarAutor.png> <./pruebas/tarea-autores-eliminado.png>]
+<pruebas/tarea-libros-eliminadoAutor.png, id=690, 579.3645pt x 596.82974pt>
+File: pruebas/tarea-libros-eliminadoAutor.png Graphic file (type png)
+<use pruebas/tarea-libros-eliminadoAutor.png>
+Package pdftex.def Info: pruebas/tarea-libros-eliminadoAutor.png  used on input
+ line 306.
+(pdftex.def)             Requested size: 443.57848pt x 456.96486pt.
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 355.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 308.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 355.
+Package pdftex.def Info: img/logo_abet.png  used on input line 308.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
+
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
 (fancyhdr)                Make it at least 40.51407pt, for example:
@@ -1152,16 +1163,31 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.51407pt}.
 
-[17
-
-]
+[17 <./pruebas/tarea-libros-eliminadoAutor.png>]
+<pruebas/curlActualizarAutor.png, id=697, 596.2275pt x 51.7935pt>
+File: pruebas/curlActualizarAutor.png Graphic file (type png)
+<use pruebas/curlActualizarAutor.png>
+Package pdftex.def Info: pruebas/curlActualizarAutor.png  used on input line 31
+5.
+(pdftex.def)             Requested size: 443.57848pt x 38.53285pt.
+<pruebas/tarea-autores-actualizado2.png, id=698, 524.55975pt x 492.6405pt>
+File: pruebas/tarea-autores-actualizado2.png Graphic file (type png)
+<use pruebas/tarea-autores-actualizado2.png>
+Package pdftex.def Info: pruebas/tarea-autores-actualizado2.png  used on input 
+line 319.
+(pdftex.def)             Requested size: 443.57848pt x 416.60403pt.
+<pruebas/curlObtenerLibro.png, id=699, 638.385pt x 57.21375pt>
+File: pruebas/curlObtenerLibro.png Graphic file (type png)
+<use pruebas/curlObtenerLibro.png>
+Package pdftex.def Info: pruebas/curlObtenerLibro.png  used on input line 327.
+(pdftex.def)             Requested size: 443.57848pt x 39.75513pt.
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 368.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 329.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 368.
+Package pdftex.def Info: img/logo_abet.png  used on input line 329.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
 
 
@@ -1174,163 +1200,229 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 [18
 
+ <./pruebas/curlActualizarAutor.png> <./pruebas/tarea-autores-actualizado2.png>
+ <./pruebas/curlObtenerLibro.png>]
+<pruebas/curlIngresarLibro.png, id=710, 554.07pt x 52.39575pt>
+File: pruebas/curlIngresarLibro.png Graphic file (type png)
+<use pruebas/curlIngresarLibro.png>
+Package pdftex.def Info: pruebas/curlIngresarLibro.png  used on input line 336.
+
+(pdftex.def)             Requested size: 443.57848pt x 41.94702pt.
+<pruebas/tarea-libro-ingresado.png, id=711, 664.28175pt x 566.71725pt>
+File: pruebas/tarea-libro-ingresado.png Graphic file (type png)
+<use pruebas/tarea-libro-ingresado.png>
+Package pdftex.def Info: pruebas/tarea-libro-ingresado.png  used on input line 
+340.
+(pdftex.def)             Requested size: 443.57848pt x 378.44472pt.
+File: img/logo_episunsa.png Graphic file (type png)
+<use img/logo_episunsa.png>
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 342.
+(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
+File: img/logo_abet.png Graphic file (type png)
+<use img/logo_abet.png>
+Package pdftex.def Info: img/logo_abet.png  used on input line 342.
+(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
+
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 40.51407pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.51407pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.51407pt}.
+
+[19
+
+ <./pruebas/curlIngresarLibro.png> <./pruebas/tarea-libro-ingresado.png>]
+<pruebas/curlObtenerLibroId.png, id=721, 424.58624pt x 39.7485pt>
+File: pruebas/curlObtenerLibroId.png Graphic file (type png)
+<use pruebas/curlObtenerLibroId.png>
+Package pdftex.def Info: pruebas/curlObtenerLibroId.png  used on input line 349
+.
+(pdftex.def)             Requested size: 443.57848pt x 41.5285pt.
+<pruebas/curlActualizarLibro.png, id=722, 602.25pt x 57.816pt>
+File: pruebas/curlActualizarLibro.png Graphic file (type png)
+<use pruebas/curlActualizarLibro.png>
+Package pdftex.def Info: pruebas/curlActualizarLibro.png  used on input line 35
+7.
+(pdftex.def)             Requested size: 443.57848pt x 42.58554pt.
+<pruebas/tarea-libro-actualizado.png, id=723, 554.67226pt x 549.252pt>
+File: pruebas/tarea-libro-actualizado.png Graphic file (type png)
+<use pruebas/tarea-libro-actualizado.png>
+Package pdftex.def Info: pruebas/tarea-libro-actualizado.png  used on input lin
+e 361.
+(pdftex.def)             Requested size: 443.57848pt x 439.25134pt.
+File: img/logo_episunsa.png Graphic file (type png)
+<use img/logo_episunsa.png>
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 366.
+(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
+File: img/logo_abet.png Graphic file (type png)
+<use img/logo_abet.png>
+Package pdftex.def Info: img/logo_abet.png  used on input line 366.
+(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
+
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 40.51407pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.51407pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.51407pt}.
+
+[20
+
+ <./pruebas/curlObtenerLibroId.png> <./pruebas/curlActualizarLibro.png> <./prue
+bas/tarea-libro-actualizado.png>]
+<pruebas/curlEliminarLibro.png, id=734, 447.47176pt x 46.37325pt>
+File: pruebas/curlEliminarLibro.png Graphic file (type png)
+<use pruebas/curlEliminarLibro.png>
+Package pdftex.def Info: pruebas/curlEliminarLibro.png  used on input line 369.
+
+(pdftex.def)             Requested size: 443.57848pt x 45.96979pt.
+<pruebas/tarea-libro-eliminadoLibro.png, id=735, 616.10175pt x 446.8695pt>
+File: pruebas/tarea-libro-eliminadoLibro.png Graphic file (type png)
+<use pruebas/tarea-libro-eliminadoLibro.png>
+Package pdftex.def Info: pruebas/tarea-libro-eliminadoLibro.png  used on input 
+line 373.
+(pdftex.def)             Requested size: 443.57848pt x 321.73215pt.
+File: img/logo_episunsa.png Graphic file (type png)
+<use img/logo_episunsa.png>
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 384.
+(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
+File: img/logo_abet.png Graphic file (type png)
+<use img/logo_abet.png>
+Package pdftex.def Info: img/logo_abet.png  used on input line 384.
+(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
+
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 40.51407pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.51407pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.51407pt}.
+
+[21 <./pruebas/curlEliminarLibro.png> <./pruebas/tarea-libro-eliminadoLibro.png
+>]
+Overfull \hbox (4.41283pt too wide) in paragraph at lines 394--404
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--404
+
+ []
+
+File: img/logo_episunsa.png Graphic file (type png)
+<use img/logo_episunsa.png>
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 406.
+(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
+File: img/logo_abet.png Graphic file (type png)
+<use img/logo_abet.png>
+Package pdftex.def Info: img/logo_abet.png  used on input line 406.
+(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 40.51407pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.51407pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.51407pt}.
+
+[22
+
+]
+Overfull \hbox (5.9124pt too wide) in paragraph at lines 438--438
+[]|\OT1/cmr/m/n/10 Checklist| 
+ []
+
+
+Overfull \hbox (4.45987pt too wide) in paragraph at lines 438--438
+[]|\OT1/cmr/m/n/10 Estudiante| 
+ []
+
+
+Overfull \hbox (4.7852pt too wide) in paragraph at lines 438--439
+[]|\OT1/cmr/m/n/10 Profesor| 
+ []
+
+
+Overfull \hbox (40.32231pt too wide) in paragraph at lines 436--462
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 436--462
+
+ []
+
+File: img/logo_episunsa.png Graphic file (type png)
+<use img/logo_episunsa.png>
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 464.
+(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
+File: img/logo_abet.png Graphic file (type png)
+<use img/logo_abet.png>
+Package pdftex.def Info: img/logo_abet.png  used on input line 464.
+(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 40.51407pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.51407pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.51407pt}.
+
+[23
+
+]
+File: img/logo_episunsa.png Graphic file (type png)
+<use img/logo_episunsa.png>
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 477.
+(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
+File: img/logo_abet.png Graphic file (type png)
+<use img/logo_abet.png>
+Package pdftex.def Info: img/logo_abet.png  used on input line 477.
+(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
+
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 40.51407pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.51407pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.51407pt}.
+
+[24
+
 ] (informe.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
-
-Package rerunfilecheck Warning: File `informe.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `informe.out':
-(rerunfilecheck)             Before: 2F97F9797423F3383F16989C6A8C0D98;6648
-(rerunfilecheck)             After:  387503E6C927919C304199C96BB5F129;1407.
+Package rerunfilecheck Info: File `informe.out' has not changed.
+(rerunfilecheck)             Checksum: 6880A12909A0BB5E1F330F7C2A2A557E;1555.
  ) 
 Here is how much of TeX's memory you used:
- 18571 strings out of 476331
- 316072 string characters out of 5787294
+ 18645 strings out of 476331
+ 319590 string characters out of 5787294
  1958660 words of memory out of 5000000
- 38088 multiletter control sequences out of 15000+600000
- 517021 words of font info for 49 fonts, out of 8000000 for 9000
+ 38152 multiletter control sequences out of 15000+600000
+ 516686 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,17n,92p,514b,2183s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{section.11} has been referenced but does not exist,
- replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.10.2} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.10.1} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.10} has been referenced but does not exist,
- replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.9} has been referenced but does not exist, 
-replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.8.7} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.8.6} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.8.5} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.8.4} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.8.3} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.8.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.8.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.8} has been referenced but does not exist, 
-replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.7.3} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.7.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.7.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.6.16} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.6.15} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.6.14} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.6.13} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.6.12} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.6.11} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.6.10} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.6.9} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.6.8} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.6.7} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.6.6} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.6.5} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.6.4} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.6.3} has been referenced but does not ex
-ist, replaced by a fixed one
-
- <C:\Users\Lenovo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
-000.pk><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmbx12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmbx7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Lenovo/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Lenovo/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Lenovo/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/User
-s/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb
->
-Output written on informe.pdf (18 pages, 408612 bytes).
+<C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmbx10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmbx7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Lenovo/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Lenovo/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Lenovo/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Len
+ovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on informe.pdf (24 pages, 686583 bytes).
 PDF statistics:
- 962 PDF objects out of 1000 (max. 8388607)
- 593 named destinations out of 1000 (max. 500000)
- 358 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 916 PDF objects out of 1000 (max. 8388607)
+ 587 named destinations out of 1000 (max. 500000)
+ 211 words of extra memory for PDF output out of 10000 (max. 10000000)
 

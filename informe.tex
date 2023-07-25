@@ -256,21 +256,130 @@ uso de este framework.
 	\clearpage	
 	
 	
+	\section{Consumiendo la API }
+	\begin{itemize}
+		\item curl para ingresar un autor, METODO POST
+	\end{itemize}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth,keepaspectratio]{pruebas/curlIngresarAutor.png}
+	\end{figure}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth,keepaspectratio]{pruebas/ingresandoAutor.png}
+	\end{figure}
+	\clearpage
+	
+	\begin{itemize}
+		\item curl para obtener la lista autores, METODO GET
+	\end{itemize}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth,keepaspectratio]{pruebas/curlObtenerAutores.png}
+	\end{figure}
+	
+	\begin{itemize}
+		\item curl para obtener autor por ID, METODO GET
+	\end{itemize}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth,keepaspectratio]{pruebas/curlObtenerAutorId.png}
+	\end{figure}
+	
+	\begin{itemize}
+		\item curl para eliminar autor por ID, METODO DELETE
+	\end{itemize}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth,keepaspectratio]{pruebas/curlEliminarAutor.png}
+	\end{figure}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth, height=0.8\textwidth,keepaspectratio]{pruebas/tarea-autores-eliminado.png}
+	\end{figure}
+	
+	\begin{itemize}
+		\item Al eliminar ese autor se elimina su libro
+	\end{itemize}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth,keepaspectratio]{pruebas/tarea-libros-eliminadoAutor.png}
+	\end{figure}
+	\clearpage
+	
+	\begin{itemize}
+		\item curl para actualizar autor por ID, METODO PUT
+	\end{itemize}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth,keepaspectratio]{pruebas/curlActualizarAutor.png}
+	\end{figure}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth,keepaspectratio]{pruebas/tarea-autores-actualizado2.png}
+	\end{figure}
+	
+	\begin{itemize}
+		\item curl para obtener lista de libros, METODO GET
+	\end{itemize}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth,keepaspectratio]{pruebas/curlObtenerLibro.png}
+	\end{figure}
+	\clearpage	
+	
+	\begin{itemize}
+		\item curl para ingresar libro, METODO POST
+	\end{itemize}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth,keepaspectratio]{pruebas/curlIngresarLibro.png}
+	\end{figure}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth,keepaspectratio]{pruebas/tarea-libro-ingresado.png}
+	\end{figure}
+	\clearpage
+	
+	\begin{itemize}
+		\item curl para obtener libro por ID, METODO GET
+	\end{itemize}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth,keepaspectratio]{pruebas/curlObtenerLibroId.png}
+	\end{figure}
+	
+	\begin{itemize}
+		\item curl para  actualizar libro por ID, METODO PUT
+	\end{itemize}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth,keepaspectratio]{pruebas/curlActualizarLibro.png}
+	\end{figure}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth,keepaspectratio]{pruebas/tarea-libro-actualizado.png}
+	\end{figure}
+	
+	\begin{itemize}
+		\item curl para eliminar libro por ID, METODO DELETE
+	\end{itemize}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth,keepaspectratio]{pruebas/curlEliminarLibro.png}
+	\end{figure}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth,keepaspectratio]{pruebas/tarea-libro-eliminadoLibro.png}
+	\end{figure}
 	\section{Cuestionario}
 \begin{itemize}
-	\item \textbf{¿Qué son los archivos *.pyc?} \\
-		Los archivos *.pyc son archivos de bytecode de Python. Son generados por el intérprete de Python al compilar un archivo fuente *.py. Estos archivos contienen el código fuente de Python compilado en un formato de bajo nivel que puede ser ejecutado más rápidamente por el intérprete de Python.
+	\item \textbf{¿Cuál fue la mayor dificultad del uso de este framework?} \\
+		La mayor dificultad del uso de este framework fue la curva de aprendizaje inicial y la comprensión completa de sus conceptos y funcionamiento. Al ser un framework completo y robusto, Django tiene una amplia gama de características y funcionalidades que pueden resultar abrumadoras al principio.
 
-	\item \textbf{¿Para qué sirve el directorio pycacher?} \\
-		El directorio pycache es un directorio utilizado por el intérprete de Python para almacenar archivos de bytecode compilados (*.pyc). Estos archivos se generan automáticamente cuando se importa un módulo en Python. El directorio pycache ayuda a mejorar el rendimiento de la importación de módulos, ya que evita la necesidad de recompilar el código fuente cada vez que se importa un módulo.
+Además, la configuración inicial del proyecto y la comprensión de la estructura de directorios pueden ser un desafío, especialmente para aquellos que son nuevos en el desarrollo web o en el uso de frameworks.
 
-	\item \textbf{¿Cuáles son los usos y lo que representa el subguión en Python?} \\
-		El subguión en Python tiene varios usos y representaciones dependiendo del contexto:
-		\begin{itemize}
-			\item Como nombre de variable temporal: Se utiliza cuando no se necesita utilizar el valor de una variable y se desea ignorar. 			
-			\item Como nombre de variable "descartable": A veces se utiliza el subguión como nombre de variable cuando el valor no es relevante y solo se necesita ejecutar una función o método. 		
-			\item Como nombre de traducción o convención: En algunos casos, se utiliza el subguión como convención para indicar que una variable o método no se utiliza o no es relevante en ese contexto. 
-		\end{itemize}
+	
 \end{itemize}
 	\clearpage
 	
